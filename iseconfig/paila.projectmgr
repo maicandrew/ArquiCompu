@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="paila" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ADDER4_TF C:|Users|Andres F Ospina|paila|ADDER4_TF.v</ClosedNode>
+         <ClosedNode>/ADDER_TF C:|Users|Andres F Ospina|paila|ADDER_TF.v</ClosedNode>
+         <ClosedNode>/CONTROL_UNIT_TF C:|Users|Andres F Ospina|paila|CONTROL_UNIT_TF.v</ClosedNode>
+         <ClosedNode>/DM_TF C:|Users|Andres F Ospina|paila|DM_TF.v</ClosedNode>
+         <ClosedNode>/HU_TF C:|Users|Andres F Ospina|paila|HU_TF.v</ClosedNode>
+         <ClosedNode>/INSTRUCTION_MEMORY_TF C:|Users|Andres F Ospina|paila|INSTRUCTION_MEMORY_TF.v</ClosedNode>
+         <ClosedNode>/LL2_TF C:|Users|Andres F Ospina|paila|LL2_TF.v</ClosedNode>
+         <ClosedNode>/MUX2_1S_TF C:|Users|Andres F Ospina|paila|MUX2_1S_TF.v</ClosedNode>
+         <ClosedNode>/MUX2_1_64_TF C:|Users|Andres F Ospina|paila|MUX2_1_64_TF.v</ClosedNode>
+         <ClosedNode>/PROCESADOR_FIX_TF C:|Users|Andres F Ospina|paila|PROCESADOR_FIX_TF.v</ClosedNode>
+         <ClosedNode>/PROCESSOR_TF C:|Users|Andres F Ospina|paila|PROCESSOR_TF.v/uut - PROCESSOR</ClosedNode>
+         <ClosedNode>/PROGRAM_COUNTER_TF C:|Users|Andres F Ospina|paila|PROGRAM_COUNTER_TF.v</ClosedNode>
+         <ClosedNode>/PRO_FIX_TF C:|Users|Andres F Ospina|paila|PRO_FIX_TF.v</ClosedNode>
+         <ClosedNode>/RF_TF C:|Users|Andres F Ospina|paila|RF_TF.v</ClosedNode>
+         <ClosedNode>/Reg_32S_TF C:|Users|Andres F Ospina|paila|Reg_32S_TF.v</ClosedNode>
+         <ClosedNode>/SE_TF C:|Users|Andres F Ospina|paila|SE_TF.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>PROCESSOR_FIX (C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/PROCESSOR_FIX.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000015b000000020000000000000000000000000200000064ffffffff0000008100000003000000020000015b0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>PROCESSOR_FIX (C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/PROCESSOR_FIX.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001b10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ADDER.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ADDER4_TF C:|Users|Andres F Ospina|paila|ADDER4_TF.v</ClosedNode>
+         <ClosedNode>/ADDER_TF C:|Users|Andres F Ospina|paila|ADDER_TF.v</ClosedNode>
+         <ClosedNode>/CONTROL_UNIT_TF C:|Users|Andres F Ospina|paila|CONTROL_UNIT_TF.v</ClosedNode>
+         <ClosedNode>/DM_TF C:|Users|Andres F Ospina|paila|DM_TF.v</ClosedNode>
+         <ClosedNode>/HU_TF C:|Users|Andres F Ospina|paila|HU_TF.v</ClosedNode>
+         <ClosedNode>/INSTRUCTION_MEMORY_TF C:|Users|Andres F Ospina|paila|INSTRUCTION_MEMORY_TF.v</ClosedNode>
+         <ClosedNode>/LL2_TF C:|Users|Andres F Ospina|paila|LL2_TF.v</ClosedNode>
+         <ClosedNode>/MUX2_1S_TF C:|Users|Andres F Ospina|paila|MUX2_1S_TF.v</ClosedNode>
+         <ClosedNode>/MUX2_1_64_TF C:|Users|Andres F Ospina|paila|MUX2_1_64_TF.v</ClosedNode>
+         <ClosedNode>/PROCESADOR_FIX_TF C:|Users|Andres F Ospina|paila|PROCESADOR_FIX_TF.v</ClosedNode>
+         <ClosedNode>/PROCESADOR_FIX_TF C:|Users|maicol|Documents|Arquitectura|Nueva carpeta|paila|PROCESADOR_FIX_TF.v</ClosedNode>
+         <ClosedNode>/PROCESSOR_FIX_TF C:|Users|Andres F Ospina|Desktop|paila|PROCESSOR_FIX_TF.v</ClosedNode>
+         <ClosedNode>/PROCESSOR_FIX_TF C:|Users|Andres F Ospina|paila|PROCESSOR_FIX_TF.v</ClosedNode>
+         <ClosedNode>/PROCESSOR_FIX_TF C:|Users|maicol|Documents|Arquitectura|Nueva carpeta|paila|PROCESSOR_FIX_TF.v</ClosedNode>
+         <ClosedNode>/PROCESSOR_TF C:|Users|Andres F Ospina|paila|PROCESSOR_TF.v</ClosedNode>
+         <ClosedNode>/PROCESSOR_TF C:|Users|maicol|Documents|Arquitectura|Nueva carpeta|paila|PROCESSOR_TF.v/uut - PROCESSOR</ClosedNode>
+         <ClosedNode>/PROGRAM_COUNTER_TF C:|Users|Andres F Ospina|paila|PROGRAM_COUNTER_TF.v</ClosedNode>
+         <ClosedNode>/PRO_FIX_TF C:|Users|Andres F Ospina|paila|PRO_FIX_TF.v</ClosedNode>
+         <ClosedNode>/RF_TF C:|Users|Andres F Ospina|paila|RF_TF.v</ClosedNode>
+         <ClosedNode>/Reg_32S_TF C:|Users|Andres F Ospina|paila|Reg_32S_TF.v</ClosedNode>
+         <ClosedNode>/SE_TF C:|Users|Andres F Ospina|paila|SE_TF.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>uut - PROCESSOR (C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/PROCESSOR.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000128000000020000000000000000000000000200000064ffffffff000000810000000300000002000001280000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>uut - PROCESSOR (C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/PROCESSOR.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+</Project>

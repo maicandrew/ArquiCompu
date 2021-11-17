@@ -1,0 +1,77 @@
+Para hallar el promedio de un vecto:
+Los datos que vamos a escribir en memoria a traves del puerto serial:
+
+n: Cantidad de elementos del vector.
+v[]: Los valores del vector desde v[0] hasta v[n-1]
+
+
+NOTA: La direccion base del vector en memoria ya deberia estar precargada en un registro. igualmente para n
+NOTA: El tamaño del vector debe estar dado por una potencia de dos: 2^n
+NOTA: Si no esta implementado las operaciones con inmediatos deberiamos cargar en un registro el valor "1"
+
+por defecto para el algoritmo:
+
+*direccion de memoria de n estará en: X21
+valor de n se cargara en:X22
+
+*valor de i será siempre 0 inicialmente, y se guardará en X20
+
+*direccion de memoria posicion base del vector: X19
+
+*valor del promedio se guardara en x24
+
+*registro con valor 1:X1
+
+Algoritmo en C-------------------------->
+
+int promedio=0;
+for (int i=0; i<n; i+=1){
+	promedio += v[i];
+}
+promedio = promedio/n;
+
+Algoritmo en ensamblador-------------------------->
+
+1.		LDUR X22 [X21,#0] //Cargamos a n desde memoria
+2.		ADD X20,XZR,XZR //inicializamos i en 0
+3.		ADD X24,XZR,XZR //inicializamos promedio en 0
+4.	FOR:	SUB X23,X22,X20 //a n - i
+5.		CBZ X23, ENDFOR //Comparamos si n - i = 0
+6.		LSL XZR,XZR,#0	//Preparamos a i como direccion efectiva de memoria
+7.		ADD X9,X20,X19
+8.		LDUR X25,[X9,#0] //Cargamos en X25 lo que está en v[i]
+9.		ADD X24,X24,X25 //promedio += v[i]
+10.		ADD X20,X20,X1 // i+=1
+11.		CBZ XZR FOR
+12.	ENDFOR: LSR X22,X22,#1 //Esto se hace para promedio = promedio/n: lo que se hace es dividir n/2 hasta que es igual a 1 
+13.		SUB X23,X22,X1
+14.		CBZ X23, END
+15.		LSR X24,X24,#1
+16.		CBZ XZR ENDFOR
+17.	END:	LSR X24,X24,#1
+
+
+Algoritmo en binario:
+	
+1.	[1 1 1 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 1 0 1 1 0]
+2.	[1 0 0 0 1 0 1 1 0 0 0 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 0 1 0 0]
+3.	[1 0 0 0 1 0 1 1 0 0 0 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 0]
+4.	[1 1 0 0 1 0 1 1 0 0 0 1 0 1 1 0 0 0 0 0 0 0 1 0 1 0 0 1 0 1 1 1]
+5.	[1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 1 1]
+6.	[1 1 0 1 0 0 1 1 0 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1]
+7.	[1 0 0 0 1 0 1 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 1 1 0 1 0 0 1]
+8.	[1 1 1 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 0 0 1]
+9.	[1 0 0 0 1 0 1 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 0 0]
+10.	[1 0 0 0 1 0 1 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0]
+11.	[1 0 1 1 0 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1]
+12.	[1 1 0 1 0 0 1 1 0 1 0 1 0 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 0 1 1 0]
+13.	[1 1 0 0 1 0 1 1 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1]
+14.	[1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 1 1 1]
+15.	[1 1 0 1 0 0 1 1 0 1 0 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0]
+16.	[1 0 1 1 0 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1]
+17.	[1 1 0 1 0 0 1 1 0 1 0 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0]
+
+
+
+
+	

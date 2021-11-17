@@ -1,0 +1,67 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/PROCESSOR_TF_isim_beh.exe -prj C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/PROCESSOR_TF_beh.prj work.PROCESSOR_TF work.glbl 
+ISim P.68d (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/SE.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/RF.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/Reg_64S.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/Reg_64.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/Reg_5.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/Reg_32S.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/Reg_3.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/Reg.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/MUX3_1_64.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/MUX2_1_64.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/MUX2_1_5.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/MUX2_1S.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/LL2.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/IM.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/HU.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/FU.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/DM.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/CU.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/Comp0.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/AND.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/ALU.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/ADDER4.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/ADDER.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/PROCESSOR.v" into library work
+Analyzing Verilog file "C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/PROCESSOR_TF.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 180016 KB
+Fuse CPU Usage: 390 ms
+Compiling module MUX2_1_64
+Compiling module Reg_64S
+Compiling module IM
+Compiling module ADDER4
+Compiling module Reg_32S
+Compiling module Hazzard
+Compiling module CU
+Compiling module MUX2_1S
+Compiling module SE
+Compiling module LL2
+Compiling module ADDER
+Compiling module MUX2_1_5
+Compiling module RF
+Compiling module Comp0
+Compiling module AND
+Compiling module Reg_5
+Compiling module Reg_64
+Compiling module Reg
+Compiling module Reg_3
+Compiling module Forwarding_Unit
+Compiling module MUX3_1_64
+Compiling module ALU
+Compiling module DM
+Compiling module PROCESSOR
+Compiling module PROCESSOR_TF
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 19 sub-compilation(s) to finish...
+Compiled 26 Verilog Units
+Built simulation executable C:/Users/maicol/Documents/Arquitectura/Nueva carpeta/paila/PROCESSOR_TF_isim_beh.exe
+Fuse Memory Usage: 187540 KB
+Fuse CPU Usage: 593 ms
